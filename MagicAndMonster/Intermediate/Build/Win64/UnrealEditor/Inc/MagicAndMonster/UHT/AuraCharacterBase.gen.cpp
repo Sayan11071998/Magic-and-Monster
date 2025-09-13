@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "MagicAndMonster/Public/AuraCharacterBase.h"
+#include "MagicAndMonster/Public/Character/AuraCharacterBase.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeAuraCharacterBase() {}
 
@@ -30,8 +30,8 @@ struct Z_Construct_UClass_AAuraCharacterBase_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
 		{ "HideCategories", "Navigation" },
-		{ "IncludePath", "AuraCharacterBase.h" },
-		{ "ModuleRelativePath", "Public/AuraCharacterBase.h" },
+		{ "IncludePath", "Character/AuraCharacterBase.h" },
+		{ "ModuleRelativePath", "Public/Character/AuraCharacterBase.h" },
 	};
 #endif // WITH_METADATA
 	static UObject* (*const DependentSingletons[])();
@@ -57,7 +57,7 @@ const UECodeGen_Private::FClassParams Z_Construct_UClass_AAuraCharacterBase_Stat
 	0,
 	0,
 	0,
-	0x009000A4u,
+	0x009000A5u,
 	METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AAuraCharacterBase_Statics::Class_MetaDataParams), Z_Construct_UClass_AAuraCharacterBase_Statics::Class_MetaDataParams)
 };
 UClass* Z_Construct_UClass_AAuraCharacterBase()
@@ -77,14 +77,14 @@ AAuraCharacterBase::~AAuraCharacterBase() {}
 // End Class AAuraCharacterBase
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_Users_sayan_Projects_Magic_and_Monster_MagicAndMonster_Source_MagicAndMonster_Public_AuraCharacterBase_h_Statics
+struct Z_CompiledInDeferFile_FID_Users_sayan_Projects_Magic_and_Monster_MagicAndMonster_Source_MagicAndMonster_Public_Character_AuraCharacterBase_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AAuraCharacterBase, AAuraCharacterBase::StaticClass, TEXT("AAuraCharacterBase"), &Z_Registration_Info_UClass_AAuraCharacterBase, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AAuraCharacterBase), 3429536035U) },
+		{ Z_Construct_UClass_AAuraCharacterBase, AAuraCharacterBase::StaticClass, TEXT("AAuraCharacterBase"), &Z_Registration_Info_UClass_AAuraCharacterBase, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AAuraCharacterBase), 1721070766U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_sayan_Projects_Magic_and_Monster_MagicAndMonster_Source_MagicAndMonster_Public_AuraCharacterBase_h_3535138693(TEXT("/Script/MagicAndMonster"),
-	Z_CompiledInDeferFile_FID_Users_sayan_Projects_Magic_and_Monster_MagicAndMonster_Source_MagicAndMonster_Public_AuraCharacterBase_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_sayan_Projects_Magic_and_Monster_MagicAndMonster_Source_MagicAndMonster_Public_AuraCharacterBase_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_sayan_Projects_Magic_and_Monster_MagicAndMonster_Source_MagicAndMonster_Public_Character_AuraCharacterBase_h_2260059254(TEXT("/Script/MagicAndMonster"),
+	Z_CompiledInDeferFile_FID_Users_sayan_Projects_Magic_and_Monster_MagicAndMonster_Source_MagicAndMonster_Public_Character_AuraCharacterBase_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_sayan_Projects_Magic_and_Monster_MagicAndMonster_Source_MagicAndMonster_Public_Character_AuraCharacterBase_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration
