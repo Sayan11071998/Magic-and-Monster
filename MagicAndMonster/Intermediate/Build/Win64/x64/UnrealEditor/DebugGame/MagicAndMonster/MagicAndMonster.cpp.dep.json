@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\sayan\\projects\\magic-and-monster\\magicandmonster\\source\\magicandmonster\\magicandmonster.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\sayan\\projects\\magic-and-monster\\magicandmonster\\intermediate\\build\\win64\\x64\\magicandmonstereditor\\debuggame\\unrealed\\sharedpch.unrealed.project.nonoptimized.valapi.cpp20.inclorderoldest.h.pch",
+        "Includes": [
+            "c:\\users\\sayan\\projects\\magic-and-monster\\magicandmonster\\intermediate\\build\\win64\\x64\\unrealeditor\\debuggame\\magicandmonster\\definitions.magicandmonster.h",
+            "c:\\users\\sayan\\projects\\magic-and-monster\\magicandmonster\\source\\magicandmonster\\magicandmonster.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
