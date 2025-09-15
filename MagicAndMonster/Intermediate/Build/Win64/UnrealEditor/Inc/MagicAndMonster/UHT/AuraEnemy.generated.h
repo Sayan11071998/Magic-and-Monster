@@ -25,8 +25,6 @@ public: \
 
 
 #define FID_Users_sayan_Projects_Magic_and_Monster_MagicAndMonster_Source_MagicAndMonster_Public_Character_AuraEnemy_h_11_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AAuraEnemy(); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	AAuraEnemy(AAuraEnemy&&); \
