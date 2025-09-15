@@ -285,6 +285,9 @@
 /I "C:\Users\sayan\Projects\Magic-and-Monster\MagicAndMonster\Intermediate\Build\Win64\UnrealEditor\Inc\MagicAndMonster\UHT"
 /I "C:\Users\sayan\Projects\Magic-and-Monster\MagicAndMonster\Source"
 /I "C:\Users\sayan\Projects\Magic-and-Monster\MagicAndMonster\Source\MagicAndMonster\Public"
+/I "..\Plugins\EnhancedInput\Intermediate\Build\Win64\UnrealEditor\Inc\EnhancedInput\UHT"
+/I "..\Plugins\EnhancedInput\Source"
+/I "..\Plugins\EnhancedInput\Source\EnhancedInput\Public"
 /external:W0
 /external:I "ThirdParty\LibTiff\Source\Win64"
 /external:I "ThirdParty\LibTiff\Source"
