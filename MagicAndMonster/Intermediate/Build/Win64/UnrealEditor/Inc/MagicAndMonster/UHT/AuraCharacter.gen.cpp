@@ -72,7 +72,6 @@ template<> MAGICANDMONSTER_API UClass* StaticClass<AAuraCharacter>()
 {
 	return AAuraCharacter::StaticClass();
 }
-AAuraCharacter::AAuraCharacter() {}
 DEFINE_VTABLE_PTR_HELPER_CTOR(AAuraCharacter);
 AAuraCharacter::~AAuraCharacter() {}
 // End Class AAuraCharacter
