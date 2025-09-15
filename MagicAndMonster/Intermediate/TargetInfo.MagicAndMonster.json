@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "MagicAndMonster",
+			"Path": "..\\Source\\MagicAndMonster.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "MagicAndMonsterEditor",
+			"Path": "..\\Source\\MagicAndMonsterEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

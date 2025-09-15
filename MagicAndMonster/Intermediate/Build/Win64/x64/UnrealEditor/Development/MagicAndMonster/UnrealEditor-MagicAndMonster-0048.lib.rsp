@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-MagicAndMonster-0048.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\sayan\Projects\Magic-and-Monster\MagicAndMonster\Intermediate\Build\Win64\x64\MagicAndMonsterEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderOldest.h.obj"
+"C:\Users\sayan\Projects\Magic-and-Monster\MagicAndMonster\Intermediate\Build\Win64\x64\UnrealEditor\Development\MagicAndMonster\AuraCharacterBase.gen.cpp.obj"
+"C:\Users\sayan\Projects\Magic-and-Monster\MagicAndMonster\Intermediate\Build\Win64\x64\UnrealEditor\Development\MagicAndMonster\MagicAndMonster.init.gen.cpp.obj"
+"C:\Users\sayan\Projects\Magic-and-Monster\MagicAndMonster\Intermediate\Build\Win64\x64\UnrealEditor\Development\MagicAndMonster\MagicAndMonster.cpp.obj"
+"C:\Users\sayan\Projects\Magic-and-Monster\MagicAndMonster\Intermediate\Build\Win64\x64\UnrealEditor\Development\MagicAndMonster\AuraCharacterBase.cpp.obj"
+"C:\Users\sayan\Projects\Magic-and-Monster\MagicAndMonster\Intermediate\Build\Win64\x64\UnrealEditor\Development\MagicAndMonster\Default.rc2.res"
+/OUT:"C:\Users\sayan\Projects\Magic-and-Monster\MagicAndMonster\Intermediate\Build\Win64\x64\UnrealEditor\Development\MagicAndMonster\UnrealEditor-MagicAndMonster-0048.lib"
