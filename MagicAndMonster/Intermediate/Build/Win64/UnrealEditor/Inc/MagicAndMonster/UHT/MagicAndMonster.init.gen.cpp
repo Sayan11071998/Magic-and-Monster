@@ -17,13 +17,13 @@ void EmptyLinkFunctionForGeneratedCodeMagicAndMonster_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x9AB92631,
-				0x61A5B21B,
+				0x875E3745,
+				0x4B619610,
 				METADATA_PARAMS(0, nullptr)
 			};
 			UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_MagicAndMonster.OuterSingleton, PackageParams);
 		}
 		return Z_Registration_Info_UPackage__Script_MagicAndMonster.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_MagicAndMonster(Z_Construct_UPackage__Script_MagicAndMonster, TEXT("/Script/MagicAndMonster"), Z_Registration_Info_UPackage__Script_MagicAndMonster, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x9AB92631, 0x61A5B21B));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_MagicAndMonster(Z_Construct_UPackage__Script_MagicAndMonster, TEXT("/Script/MagicAndMonster"), Z_Registration_Info_UPackage__Script_MagicAndMonster, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x875E3745, 0x4B619610));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
