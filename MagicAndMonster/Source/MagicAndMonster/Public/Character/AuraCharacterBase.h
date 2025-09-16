@@ -15,7 +15,6 @@ class MAGICANDMONSTER_API AAuraCharacterBase : public ACharacter, public IAbilit
 
 public:
 	AAuraCharacterBase();
-	virtual UAbilitySystemComponent* GetAbilitySystemComponent() const override;
 
 protected:
 	virtual void BeginPlay() override;
@@ -30,5 +29,6 @@ protected:
 	TObjectPtr<UAttributeSet> AttributeSet;
 
 public:
+	FORCEINLINE virtual UAbilitySystemComponent* GetAbilitySystemComponent() const override { return AbilitySystemComponent; }
 	FORCEINLINE UAttributeSet* GetAttributeSet() const { return AttributeSet; }
 };

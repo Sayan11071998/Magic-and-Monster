@@ -15,7 +15,6 @@ class MAGICANDMONSTER_API AAuraPlayerState : public APlayerState, public IAbilit
 
 public:
 	AAuraPlayerState();
-	virtual UAbilitySystemComponent* GetAbilitySystemComponent() const override;
 
 protected:
 	UPROPERTY()
@@ -25,5 +24,6 @@ protected:
 	TObjectPtr<UAttributeSet> AttributeSet;
 
 public:
+	FORCEINLINE virtual UAbilitySystemComponent* GetAbilitySystemComponent() const override { return AbilitySystemComponent; }
 	FORCEINLINE UAttributeSet* GetAttributeSet() const { return AttributeSet; }
 };
