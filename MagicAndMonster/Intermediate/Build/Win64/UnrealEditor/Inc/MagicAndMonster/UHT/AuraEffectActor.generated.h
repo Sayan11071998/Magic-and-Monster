@@ -10,16 +10,14 @@
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 class AActor;
-class UPrimitiveComponent;
-struct FHitResult;
+class UGameplayEffect;
 #ifdef MAGICANDMONSTER_AuraEffectActor_generated_h
 #error "AuraEffectActor.generated.h already included, missing '#pragma once' in AuraEffectActor.h"
 #endif
 #define MAGICANDMONSTER_AuraEffectActor_generated_h
 
 #define FID_Users_sayan_Projects_Magic_and_Monster_MagicAndMonster_Source_MagicAndMonster_Public_Actor_AuraEffectActor_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	DECLARE_FUNCTION(execEndOverlap); \
-	DECLARE_FUNCTION(execOnOverlap);
+	DECLARE_FUNCTION(execApplyEffectToTarget);
 
 
 #define FID_Users_sayan_Projects_Magic_and_Monster_MagicAndMonster_Source_MagicAndMonster_Public_Actor_AuraEffectActor_h_12_INCLASS_NO_PURE_DECLS \
